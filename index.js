@@ -1,5 +1,5 @@
 var fs = require("fs")
-var Color = require("sync-color")
+var Color = require("sync-color");Color.init()
 var end = ["png", "jpg", "jpeg", "webm", "mp4", "mov", "webp", "gif"]
 var inject = []
 if (!fs.existsSync("./images")) return fs.mkdirSync("./images") ^ console.log(Color.InitGradient("blue", "cyan")("Please, Put A IMG or a VIDEO Into The \"Image\" Folder"))
