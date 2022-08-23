@@ -1,6 +1,6 @@
 var fs = require("fs")
 var Color = require("sync-color");
-//Color.init()
+Color.init()
 var end = ["png", "jpg", "jpeg", "webm", "mp4", "mov", "webp", "gif"]
 var inject = []
 var getCode = () => fs.readFileSync("./code.vbs").toString()
